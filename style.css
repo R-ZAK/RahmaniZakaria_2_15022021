@@ -570,8 +570,7 @@ footer a
 
 	.recherche {
 		padding-left: 0px;
-		margin-left: 20px;
-		width: 90%;
+		margin-left: 20px;	
 	}
 
 	.recherche .bouton {
@@ -602,8 +601,8 @@ footer a
 	}
 	.Hebergements {
 		background-color: white;
-		width: 90%;
 		margin: 0px;
+		width: 100%;
 	}
 
 	.box-hebergements {
@@ -626,15 +625,10 @@ footer a
 		margin-right: 0px;
 		margin-top: 50px;
 	}
-
-	.titrelpp {
-		width: 80%;
-	}
 	
 	.boxlpp {
-		width: 90%;
+		align-items: center;
 	}
-
 
 	.textfooter {
 		display: flex;
@@ -651,7 +645,6 @@ footer a
 	}
 	
 	.boxactivités {
-		width: 90%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
