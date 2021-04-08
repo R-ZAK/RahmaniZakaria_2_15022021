@@ -280,7 +280,7 @@ header
 	border-radius: 30px;
 	box-shadow: 0px 0px 15px 5px #ebebeb;
 	height: 250px;
-	width: 350px;
+	width: 30%;
 }
 
 .boxdescription1
@@ -321,7 +321,7 @@ aside
 	border-radius: 15px;
 	min-height: 750px;
 	margin-right: 20px;
-	width: 550px;
+	width: 30%;
 
 }
 
@@ -344,11 +344,13 @@ aside
 	flex-direction: column;
 	justify-content: space-between;
 	height: 600px;
-	margin-top: 13px;
+	margin-top: 23px;
+	align-items: center;
 }
 
 .typebox2
 {
+	height: 170px;
 	margin-left: 20px;
 	margin-right: 20px;
 	display: flex;
@@ -361,7 +363,7 @@ aside
 
 .img-lpp
 {
-	height: 170px;
+	height: 100%;
 	width: 150px;
 	border-bottom-left-radius: 25px;
 	border-top-left-radius: 25px;
@@ -376,6 +378,10 @@ aside
 .boxdescription2 a {
 	text-decoration: none;
 	color: black;
+}
+
+.boxdescription2 .note {
+	align-items: flex-end;
 }
 
 #Activités
@@ -404,7 +410,8 @@ aside
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	max-height: 610px;
+	max-height: 600px;
+	width: 22%;
 
 }
 
@@ -413,10 +420,8 @@ aside
 
 	display: flex;
 	flex-direction: column;
-	width: 371.4px;
+	width: 22%;
 	height: 600px;
-	border: solid white 5px;
-	background-color: white;
 	border-radius: 30px;
 	box-shadow: 0px 0px 15px 5px #ebebeb;
 
@@ -424,7 +429,7 @@ aside
 
 .img-activites1
 {	
-	width: 371.4px;
+	width: 100%;
 	height: 550px;
 	object-fit: cover;
 	border-top-right-radius: 25px;
@@ -436,8 +441,7 @@ aside
 	display: flex;
 	flex-direction: column;
 	height: 300px;
-	width: 371.4px;
-	border: solid white 5px;
+	width: 100%;
 	background-color: white;
 	border-radius: 30px;
 	box-shadow: 0px 0px 15px 5px #ebebeb;
@@ -446,7 +450,7 @@ aside
 .img-activites2
 {
 	height: 250px;
-	width: 371.4px;
+	width: 100%;
 	object-fit: cover;
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
@@ -457,8 +461,7 @@ aside
 	display: flex;
 	flex-direction: column;
 	height: 250px;
-	width: 371.4px;
-	border: solid white 5px;
+	width: 100%;
 	background-color: white;
 	border-radius: 30px;
 	box-shadow: 0px 0px 15px 5px #ebebeb;
@@ -467,7 +470,7 @@ aside
 .img-activites3
 {
 	height: 200px;
-	width: 371.4px;
+	width: 100%;
 	object-fit: cover;
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
@@ -478,8 +481,7 @@ aside
 	display: flex;
 	flex-direction: column;
 	height: 600px;
-	width: 371.4px;
-	border: solid white 5px;
+	width: 22%;
 	background-color: white;
 	border-radius: 30px;
 	box-shadow: 0px 0px 15px 5px #ebebeb;
@@ -490,8 +492,7 @@ aside
 	display: flex;
 	flex-direction: column;
 	height: 250px;
-	width: 371.4px;
-	border: solid white 5px;
+	width: 100%;
 	background-color: white;
 	border-radius: 30px;
 	box-shadow: 0px 0px 15px 5px #ebebeb;
@@ -500,7 +501,7 @@ aside
 .img-activites4
 {
 	height: 200px;
-	width: 371.4px;
+	width: 100%;
 	object-fit: cover;
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
@@ -511,8 +512,7 @@ aside
 	display: flex;
 	flex-direction: column;
 	height: 300px;
-	width: 371.4px;
-	border: solid white 5px;
+	width: 100%;
 	background-color: white;
 	border-radius: 30px;
 	box-shadow: 0px 0px 15px 5px #ebebeb;
@@ -521,7 +521,7 @@ aside
 .img-activites5
 {
 	height: 250px;
-	width: 371.4px;
+	width: 100%;
 	object-fit: cover;
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
@@ -530,15 +530,14 @@ aside
 .titreboxh
 {
 	font-size: 20px;
-	margin-left: 10px;
-	margin-bottom: 10px;
+	margin-left: 20px; 
+	margin-top: 10px;
 }
 
 footer
 {
 	margin-top: 100px;
-	background: #F2F2F2;
-	padding-left: 30px;
+	background: #F2F2F2;	
 }
 
 footer a
@@ -553,6 +552,7 @@ footer a
 	justify-content: space-between;
 	max-width: 1200px;
 	flex-wrap: wrap;
+	margin-left: 50px;
 }
 
 .bluestar
@@ -580,6 +580,9 @@ footer a
 @media screen and (max-width: 800px)
 {	
 
+	.Page {
+		max-width: 100%;
+	}
 	
 	body {
 		margin: 0px;
@@ -588,16 +591,12 @@ footer a
 	header {
 		width: 100%;
 		flex-direction: column;
-	}
-
-	#LogoReservia {
-		padding-right: 250px;
-
+		align-items: flex-start;
 	}
 
 	#inscription a {
 		position: absolute;
-		top: 43px; right: 1px;
+		top: 43px; right: 20px;
 		
 	}
 
@@ -636,14 +635,19 @@ footer a
 	}
 
 	.recherche {
-		padding-left: 0px;
-		margin: auto;	
+
+		padding-left: 0px;	
 		border : solid 1px #F2F2F2;
 		border-radius: 15px;
+		width: 90%;
+		justify-content: space-between;
+		margin-left: auto;
+    	margin-right: auto;
 	}
 
 	.recherche input {
 		border: none;
+		width: 200px;
 	}
 
 	.recherche .bouton {
@@ -658,19 +662,39 @@ footer a
 	}
 
 	.filtres{
-		width: 100%;
+		max-width: 100%;
+		margin-left: 5%;
 	}
+
 	.boxfiltre
 	{
 		margin-top: 10px;
 	}
 
 	.filtretitle {
-		width: 100%;
+		max-width: 100%;
 	}
+
+	#main {
+		max-width: 100%;
+	}
+
+	#Activités {
+		max-width: 100%;
+	}
+
+	footer {
+		max-width: 100%;
+	}
+
+	.infos {
+		max-width: 100%;
+	}
+	
 	#Hebergements .title {
 		margin-left: 20px;
 	}
+
 	#Hebergements {
 		background-color: white;
 		margin: 0px;
