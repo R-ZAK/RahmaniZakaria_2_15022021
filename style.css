@@ -44,7 +44,7 @@ header
 	display: flex;
 	list-style-type: none;
 	justify-content: space-between;
-	width: 300px;
+	width: 400px;
 	margin-right: 30px;
 	align-items: center;
 	
@@ -91,7 +91,6 @@ header
 {
 	padding-left: 30px;
 	display: flex;
-	margin-top: 50px;
 }
 
 .rechercheicon
@@ -137,7 +136,7 @@ header
 .filtres
 {
 	display: flex;
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-left: 30px;
 	width: 70%;
 	align-items: center;
@@ -178,6 +177,7 @@ header
 
 .textfiltre
 {
+	font-size: 0.9rem;
 	display: flex;
 	align-items: center;
 	padding-left: 15px;
@@ -248,6 +248,7 @@ header
 {
 	font-size: 20px;
 	margin-bottom: 0px;
+	margin-top: 5px;
 }
 
 .box-hebergements
@@ -263,10 +264,10 @@ header
 
 .img-hebergements
 {
-	height: 150px;
+	height: 120px;
 	width: 100%;
-	border-top-right-radius: 25px;
-	border-top-left-radius: 25px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 	object-fit: cover;
 
 }
@@ -277,16 +278,16 @@ header
 	flex-direction: column;
 	border: solid white 5px;
 	background-color: white;
-	border-radius: 30px;
+	border-radius: 20px;
 	box-shadow: 0px 0px 15px 5px #ebebeb;
-	height: 250px;
+	height: 220px;
 	width: 30%;
 }
 
 .boxdescription1
 {
 	margin-left: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	height: 100px;
 	display: flex;
 	flex-direction: column;
@@ -371,7 +372,8 @@ aside
 }
 
 .boxdescription2
-{
+{	
+	margin-top: 10px;
 	margin-left: 20px;
 }
 
@@ -534,6 +536,11 @@ aside
 	margin-top: 10px;
 }
 
+.titrefooter {
+	font-size: 20px;
+}
+
+
 footer
 {
 	margin-top: 100px;
@@ -548,9 +555,10 @@ footer a
 
 .textfooter
 {
+	margin-top: 50px;
 	display: flex;
 	justify-content: space-between;
-	max-width: 1200px;
+	max-width: 1000px;
 	flex-wrap: wrap;
 	margin-left: 50px;
 }
